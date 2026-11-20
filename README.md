@@ -70,10 +70,6 @@ python scripts/predict_clip.py --model models/Qwen2.5-Omni-3B \
   --bundle runs/3B/methods/fitted_heads.joblib --wav clip.wav
 ```
 
-## 局限
-
-分类头使用了 LISTEN 的训练标签，表中增益反映的是有监督适配。主实验按录音分组，同一位说话人仍可能出现在训练和测试中。当前结果覆盖英文、给定候选项的情绪识别。中文、开放词表和跨数据集表现仍需单独测量。
-
 ## 来源与贡献
 
 LISTEN 评测、数据和 Qwen 模型应分别引用其作者。[LISTEN 论文](https://aclanthology.org/2026.eacl-long.274/) · [评测参考实现](https://github.com/DeliJingyiC/LISTEN/tree/32966584488bd3b3c67a150bd55f1f18ca09ef76) · [数据集固定版本](https://huggingface.co/datasets/VibeCheck1/LISTEN_full/tree/f6397b5bfedd85ae41b80dac13e95bb55adf0a35) · [Qwen 3B](https://huggingface.co/Qwen/Qwen2.5-Omni-3B) · [Qwen 7B](https://huggingface.co/Qwen/Qwen2.5-Omni-7B)

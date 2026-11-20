@@ -1,0 +1,12 @@
+transformers==4.57.3
+accelerate>=1,<2
+huggingface-hub>=0.34,<1
+librosa>=0.10,<0.12
+soundfile>=0.12,<1
+scipy>=1.11,<2
+numpy>=1.26,<3
+soxr>=0.3,<2
+pyarrow==19.0.1
+scikit-learn>=1.5,<1.8
+joblib>=1.3,<2
+threadpoolctl>=3,<4

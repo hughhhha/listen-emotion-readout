@@ -1,0 +1,30 @@
+[
+  {
+    "path": "data/test-00000-of-00001.parquet",
+    "lfs": {
+      "oid": "2e38a4587213e86fc5a02b9437bb9bed3a8000c3a393171385c53c805a56152b"
+    },
+    "size": 310249076
+  },
+  {
+    "path": "data/train-00000-of-00003.parquet",
+    "lfs": {
+      "oid": "f6ceaeb135f8338346ad6ce105cb48ed4863fb92e87b822964372280f5eb6475"
+    },
+    "size": 506953713
+  },
+  {
+    "path": "data/train-00001-of-00003.parquet",
+    "lfs": {
+      "oid": "f721d9528f07dd21052443f3a356ac01a2d0949cb7e5056fc3e7e5bd2e6df811"
+    },
+    "size": 412490699
+  },
+  {
+    "path": "data/train-00002-of-00003.parquet",
+    "lfs": {
+      "oid": "6d102f09616fee959ab52009618b5ecf79fd7c6e19f835937ac478dfc0ef3470"
+    },
+    "size": 331738167
+  }
+]
